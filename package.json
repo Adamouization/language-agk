@@ -1,0 +1,17 @@
+{
+  "name": "language-agk",
+  "version": "0.1.0",
+  "description": "AGK (App Game Kit) language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adamouization/language-agk"
+  },
+  "bugs": {
+    "url": "https://github.com/Adamouization/language-agk/issues"
+  },
+  "license": "MIT"
+}
