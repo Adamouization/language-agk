@@ -1,11 +1,11 @@
-'scopeName': 'source.agk'
-'name': 'App Game Kit'
+'scopeName': 'source.agkbasic'
+'name': 'AGK BASIC'
 'fileTypes': ['agc']
 
 'patterns': [
     {
     'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
-    'name': 'constant.numeric.agk'
+    'name': 'constant.numeric.agkbasic'
     },
     {
         "begin": "\"",
@@ -20,7 +20,7 @@
                 "name": "punctuation.definition.string.end.freebasic"
             }
         },
-        "name": "string.quoted.double.agk",
+        "name": "string.quoted.double.agkbasic",
         "patterns": [
             {
                 "include": "#string_escaped_char"
