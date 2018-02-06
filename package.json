@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "AGK (App Game Kit) language support in Atom",
   "engines": {
-    "atom": "*"
+    "atom": ">0.50.0"
   },
   "dependencies": {},
   "repository": {
