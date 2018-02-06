@@ -5,6 +5,29 @@
 'patterns': [
     {
     'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
-    'name': 'constant.numeric.mylanguage'
+    'name': 'constant.numeric.agk'
+    },
+    {
+        "begin": "\"",
+        "beginCaptures": {
+            "0": {
+                "name": "punctuation.definition.string.begin.freebasic"
+            }
+        },
+        "end": "\"",
+        "endCaptures": {
+            "0": {
+                "name": "punctuation.definition.string.end.freebasic"
+            }
+        },
+        "name": "string.quoted.double.agk",
+        "patterns": [
+            {
+                "include": "#string_escaped_char"
+            },
+            {
+                "include": "#string_placeholder"
+            }
+        ]
     }
 ]
